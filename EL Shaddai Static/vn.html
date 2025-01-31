@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Shaddai Private School</title>
+    <link rel="stylesheet" href="vn.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="school-name">El Shaddai Private School</h1>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to El Shaddai Private School</h2>
+            <p>Your child's future starts here. Excellence in education and character development.</p>
+            <a href="#learn-more" class="btn-primary">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>El Shaddai Private School is dedicated to nurturing and educating young minds with a strong emphasis on academic excellence, moral values, and extracurricular activities. Our mission is to create well-rounded individuals prepared for the challenges of tomorrow.</p>
+            <div class="about-cards">
+                <div class="about-card">
+                    <h3>Our Vision</h3>
+                    <p>To be a leading educational institution recognized for fostering intellectual growth, creativity, and integrity.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Our Mission</h3>
+                    <p>To provide a safe, nurturing, and intellectually stimulating environment where students can thrive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="academics" class="academics-section">
+        <div class="container">
+            <h2>Academics</h2>
+            <p>We offer a diverse curriculum designed to cater to the individual learning styles and needs of our students.</p>
+            <div class="academic-programs">
+                <div class="academic-program">
+                    <h3>Primary Education</h3>
+                    <p>Our primary school curriculum focuses on foundational skills in literacy, numeracy, and critical thinking.</p>
+                </div>
+                <div class="academic-program">
+                    <h3>Our Christain Worldview</h3>
+                    <p>We nurture our students' foundational skills, character, and curiosity for lifelong learning.</p>
+                </div>
+                <div class="academic-program">
+                    <h3>Extracurricular Activities</h3>
+                    <p>Our students engage in sports, arts, and community service to develop a balanced character.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="admissions" class="admissions-section">
+        <div class="container">
+            <h2>Admissions</h2>
+            <p>Join our community and start your journey towards academic excellence. Learn more about our admissions process below.</p>
+            <div class="admissions-info">
+                <div class="admissions-step">
+                    <h3>Step 1: Inquiry</h3>
+                    <p>Contact us to learn more about our school and schedule a visit.</p>
+                </div>
+                <div class="admissions-step">
+                    <h3>Step 2: Application</h3>
+                    <p>Submit your application online along with the required documents.</p>
+                </div>
+                <div class="admissions-step">
+                    <h3>Step 3: Interview</h3>
+                    <p>Attend an interview with our admissions team to discuss your child's future at our school.</p>
+                </div>
+            </div>
+            <a href="#" class="btn-secondary" id="apply-btn">Apply Now</a>
+        </div>
+    </section>
+<!-- Include the Apply button and Modal in the HTML -->
+
+
+<!-- Modal Structure -->
+<div id="apply-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Application Options</h2>
+        <p>Would you like to download the registration form or upload your completed form?</p>
+        <div class="modal-buttons">
+            <a href="EL..2.pdf" class="btn-primary" download>Download Form</a>
+            <label class="btn-secondary">
+                Upload Form
+                <form id="pdf-upload-form" action="upload.php" method="post" enctype="multipart/form-data" style="display:none;">
+                    <input type="file" name="pdfFile" id="upload-pdf" accept="application/pdf">
+                    <input type="submit" value="Upload PDF">
+                </form>
+                
+            </label>
+        </div>
+    </div>
+</div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p>Email: elshadaacademy9@gmail.com</p>
+                    <p>Phone: +265 999 918 686</p>
+                    <p>Address: 3132, Lilongwe 3, Malawi</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Social Media</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><img src="images/icons8-facebook-48.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="images/icons8-x-50.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="images/icons8-instagram-64.png" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>&copy; Created By Peace Nkhwazi 2024 El Shaddai Private School.</p>
+        </div>
+    </footer>
+
+    <script src="vn.js"></script>
+</body>
+</html>
